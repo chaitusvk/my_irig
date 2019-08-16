@@ -1,0 +1,9 @@
+0.2
+2016.1
+G:/my_project_reader/reader_nomsec/reader_nomsec.sim/sim_1/behav/glbl.v,1460148552,verilog,,,,,,,,,
+G:/my_project_reader/reader_nomsec/reader_nomsec.srcs/sim_1/new/irig_testbench.v,1558297529,verilog,,,,,,,,,
+G:/my_project_reader/reader_nomsec/reader_nomsec.srcs/sources_1/imports/irig-decoder-master/bcd_decoder.v,1456200958,verilog,,,,,,,,,
+G:/my_project_reader/reader_nomsec/reader_nomsec.srcs/sources_1/imports/irig-decoder-master/irig.v,1558301452,verilog,,,,,,,,,
+G:/my_project_reader/reader_nomsec/reader_nomsec.srcs/sources_1/imports/irig-decoder-master/irig_state.v,1558296040,verilog,,,,,,,,,
+G:/my_project_reader/reader_nomsec/reader_nomsec.srcs/sources_1/imports/irig-decoder-master/irig_timestamp.v,1456200958,verilog,,,,,,,,,
+G:/my_project_reader/reader_nomsec/reader_nomsec.srcs/sources_1/imports/new/irig_symbol_decode.v,1558418831,verilog,,,,,,,,,

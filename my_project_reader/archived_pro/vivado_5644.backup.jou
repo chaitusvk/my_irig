@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon May 20 02:08:05 2019
+# Process ID: 5644
+# Current directory: G:/arty/IRIG_READER_LOGIC/archived_pro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6556 G:\arty\IRIG_READER_LOGIC\archived_pro\archived_pro.xpr
+# Log file: G:/arty/IRIG_READER_LOGIC/archived_pro/vivado.log
+# Journal file: G:/arty/IRIG_READER_LOGIC/archived_pro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+synth_design -rtl -name rtl_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+current_design synth_1
+refresh_design
+close_project

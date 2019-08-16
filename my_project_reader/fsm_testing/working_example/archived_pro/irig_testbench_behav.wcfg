@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="irig_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="irig_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4740000000000004fs"></ZoomEndTime>
+      <Cursor1Time time="2000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="21" />
+   <wave_markers>
+      <marker time="10700000000000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/irig_testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/ec" type="logic">
+      <obj_property name="ElementShortName">ec</obj_property>
+      <obj_property name="ObjectShortName">ec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/lc" type="logic">
+      <obj_property name="ElementShortName">lc</obj_property>
+      <obj_property name="ObjectShortName">lc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/mark" type="logic">
+      <obj_property name="ElementShortName">mark</obj_property>
+      <obj_property name="ObjectShortName">mark</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/d_0" type="logic">
+      <obj_property name="ElementShortName">d_0</obj_property>
+      <obj_property name="ObjectShortName">d_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/d_1" type="logic">
+      <obj_property name="ElementShortName">d_1</obj_property>
+      <obj_property name="ObjectShortName">d_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/pps" type="logic">
+      <obj_property name="ElementShortName">pps</obj_property>
+      <obj_property name="ObjectShortName">pps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/MARK" type="array">
+      <obj_property name="ElementShortName">MARK[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MARK[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/D1" type="array">
+      <obj_property name="ElementShortName">D1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/D0" type="array">
+      <obj_property name="ElementShortName">D0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/sec_data_u" type="array">
+      <obj_property name="ElementShortName">sec_data_u[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_data_u[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/sec_data_t" type="array">
+      <obj_property name="ElementShortName">sec_data_t[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_data_t[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/min_data_u" type="array">
+      <obj_property name="ElementShortName">min_data_u[3:0]</obj_property>
+      <obj_property name="ObjectShortName">min_data_u[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/min_data_t" type="array">
+      <obj_property name="ElementShortName">min_data_t[2:0]</obj_property>
+      <obj_property name="ObjectShortName">min_data_t[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/hrs_data_u" type="array">
+      <obj_property name="ElementShortName">hrs_data_u[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hrs_data_u[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/hrs_data_t" type="array">
+      <obj_property name="ElementShortName">hrs_data_t[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hrs_data_t[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/days_data_u" type="array">
+      <obj_property name="ElementShortName">days_data_u[3:0]</obj_property>
+      <obj_property name="ObjectShortName">days_data_u[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/days_data_t" type="array">
+      <obj_property name="ElementShortName">days_data_t[3:0]</obj_property>
+      <obj_property name="ObjectShortName">days_data_t[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irig_testbench/days_data_h" type="array">
+      <obj_property name="ElementShortName">days_data_h[1:0]</obj_property>
+      <obj_property name="ObjectShortName">days_data_h[1:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Aug 09 14:23:11 2019
+# Process ID: 6060
+# Current directory: G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.sim/sim_1/behav/xsim.dir/irig_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.sim/sim_1/behav/webtalk.log
+# Journal file: G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.sim/sim_1/behav/xsim.dir/irig_testbench_behav/webtalk/xsim_webtalk.tcl -notrace

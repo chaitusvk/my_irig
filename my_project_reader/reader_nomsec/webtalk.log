@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Aug 06 16:59:00 2019
+# Process ID: 5176
+# Current directory: G:/my_project_reader/reader_nomsec
+# Command line: wbtcv.exe -mode batch -source G:/my_project_reader/symbol_decode/symbol_decode.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: G:/my_project_reader/reader_nomsec/webtalk.log
+# Journal file: G:/my_project_reader/reader_nomsec\webtalk.jou
+#-----------------------------------------------------------
+source G:/my_project_reader/symbol_decode/symbol_decode.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Aug 06 16:59:00 2019...

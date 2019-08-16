@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Aug 09 14:56:45 2019
+# Process ID: 6512
+# Current directory: G:/my_project_reader/fsm_testing/working_example/archived_pro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3012 G:\my_project_reader\fsm_testing\working_example\archived_pro\archived_pro.xpr
+# Log file: G:/my_project_reader/fsm_testing/working_example/archived_pro/vivado.log
+# Journal file: G:/my_project_reader/fsm_testing/working_example/archived_pro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config G:/my_project_reader/fsm_testing/working_example/archived_pro/irig_testbench_behav.wcfg
+source irig_testbench.tcl
+close_sim
+launch_simulation
+open_wave_config G:/my_project_reader/fsm_testing/working_example/archived_pro/irig_testbench_behav.wcfg
+source irig_testbench.tcl
+close_sim
+launch_simulation
+open_wave_config G:/my_project_reader/fsm_testing/working_example/archived_pro/irig_testbench_behav.wcfg
+source irig_testbench.tcl
+save_wave_config {G:/my_project_reader/fsm_testing/working_example/archived_pro/irig_testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config G:/my_project_reader/fsm_testing/working_example/archived_pro/irig_testbench_behav.wcfg
+source irig_testbench.tcl
+launch_simulation
+open_wave_config G:/my_project_reader/fsm_testing/working_example/archived_pro/irig_testbench_behav.wcfg
+source irig_testbench.tcl
+save_project_as working_min_v4.0 G:/my_project_reader/fsm_testing/working_example/preserve/working_min_v4.0 -force
+import_files
+close_sim

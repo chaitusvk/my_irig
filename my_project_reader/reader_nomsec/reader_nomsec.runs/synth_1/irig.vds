@@ -1,0 +1,381 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon May 20 03:01:19 2019
+# Process ID: 4228
+# Current directory: G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.runs/synth_1
+# Command line: vivado.exe -log irig.vds -mode batch -messageDb vivado.pb -notrace -source irig.tcl
+# Log file: G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.runs/synth_1/irig.vds
+# Journal file: G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source irig.tcl -notrace
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+Command: synth_design -top irig -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6340 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 300.781 ; gain = 93.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'irig' [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig.v:12]
+INFO: [Synth 8-638] synthesizing module 'irig_symbol_decode' [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/new/irig_symbol_decode.v:23]
+INFO: [Synth 8-256] done synthesizing module 'irig_symbol_decode' (1#1) [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/new/irig_symbol_decode.v:23]
+INFO: [Synth 8-638] synthesizing module 'irig_state' [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_state.v:1]
+	Parameter ST_UNLOCKED bound to: 4'b0000 
+	Parameter ST_PRELOCK bound to: 4'b0001 
+	Parameter ST_START bound to: 4'b0010 
+	Parameter ST_SECOND bound to: 4'b0011 
+	Parameter ST_MINUTE bound to: 4'b0100 
+	Parameter ST_HOUR bound to: 4'b0101 
+	Parameter ST_DAY bound to: 4'b0110 
+	Parameter ST_DAY2 bound to: 4'b0111 
+	Parameter ST_YEAR bound to: 4'b1000 
+	Parameter ST_UNUSED1 bound to: 4'b1001 
+	Parameter ST_UNUSED2 bound to: 4'b1010 
+	Parameter ST_SEC_DAY bound to: 4'b1011 
+	Parameter ST_SEC_DAY2 bound to: 4'b1100 
+	Parameter TS_SELECT_SECOND bound to: 3'b001 
+	Parameter TS_SELECT_MINUTE bound to: 3'b010 
+	Parameter TS_SELECT_HOUR bound to: 3'b011 
+	Parameter TS_SELECT_DAY bound to: 3'b100 
+	Parameter TS_SELECT_YEAR bound to: 3'b101 
+	Parameter TS_SELECT_SEC_DAY bound to: 3'b110 
+INFO: [Synth 8-155] case statement is not full and has no default [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_state.v:78]
+INFO: [Synth 8-256] done synthesizing module 'irig_state' (2#1) [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_state.v:1]
+INFO: [Synth 8-638] synthesizing module 'irig_timestamp' [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_timestamp.v:1]
+	Parameter TS_SELECT_SECOND bound to: 3'b001 
+	Parameter TS_SELECT_MINUTE bound to: 3'b010 
+	Parameter TS_SELECT_HOUR bound to: 3'b011 
+	Parameter TS_SELECT_DAY bound to: 3'b100 
+	Parameter TS_SELECT_YEAR bound to: 3'b101 
+	Parameter TS_SELECT_SEC_DAY bound to: 3'b110 
+INFO: [Synth 8-638] synthesizing module 'bcd_decoder' [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/bcd_decoder.v:1]
+INFO: [Synth 8-256] done synthesizing module 'bcd_decoder' (3#1) [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/bcd_decoder.v:1]
+WARNING: [Synth 8-689] width (5) of port connection 'bcd_bit_idx' does not match port width (3) of module 'bcd_decoder' [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_timestamp.v:39]
+INFO: [Synth 8-155] case statement is not full and has no default [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_timestamp.v:76]
+INFO: [Synth 8-256] done synthesizing module 'irig_timestamp' (4#1) [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_timestamp.v:1]
+INFO: [Synth 8-256] done synthesizing module 'irig' (5#1) [G:/arty/IRIG_READER_LOGIC/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig.v:12]
+WARNING: [Synth 8-3331] design irig_state has unconnected port end_of_symbl
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 337.332 ; gain = 129.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 337.332 ; gain = 129.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 337.332 ; gain = 129.641
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-5544] ROM "end_of_symbl" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'irig_state'
+INFO: [Synth 8-5544] ROM "ts_select" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             ST_UNLOCKED |                             0000 |                             0000
+              ST_PRELOCK |                             0001 |                             0001
+               ST_SECOND |                             0010 |                             0011
+               ST_MINUTE |                             0011 |                             0100
+                 ST_HOUR |                             0100 |                             0101
+                  ST_DAY |                             0101 |                             0110
+                 ST_DAY2 |                             0110 |                             0111
+                 ST_YEAR |                             0111 |                             1000
+              ST_UNUSED1 |                             1000 |                             1001
+              ST_UNUSED2 |                             1001 |                             1010
+              ST_SEC_DAY |                             1010 |                             1011
+             ST_SEC_DAY2 |                             1011 |                             1100
+                ST_START |                             1100 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'irig_state'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 353.410 ; gain = 145.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               17 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module irig_symbol_decode 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module irig_state 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 4     
+Module bcd_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+Module irig_timestamp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 449.875 ; gain = 242.184
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 451.055 ; gain = 243.363
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 451.055 ; gain = 243.363
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 472.375 ; gain = 264.684
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 472.375 ; gain = 264.684
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 472.375 ; gain = 264.684
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 472.602 ; gain = 264.910
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     3|
+|4     |LUT2   |    44|
+|5     |LUT3   |    15|
+|6     |LUT4   |    37|
+|7     |LUT5   |    14|
+|8     |LUT6   |    45|
+|9     |MUXF7  |     2|
+|10    |FDPE   |     1|
+|11    |FDRE   |   125|
+|12    |IBUF   |     4|
+|13    |OBUF   |    58|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------------------+------+
+|      |Instance |Module             |Cells |
++------+---------+-------------------+------+
+|1     |top      |                   |   366|
+|2     |  id1    |irig_symbol_decode |    35|
+|3     |  is1    |irig_state         |   108|
+|4     |  it1    |irig_timestamp     |   159|
+|5     |    bd1  |bcd_decoder        |    48|
++------+---------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 472.602 ; gain = 251.793
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 472.602 ; gain = 264.910
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 536.328 ; gain = 316.391
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 536.328 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 20 03:01:29 2019...

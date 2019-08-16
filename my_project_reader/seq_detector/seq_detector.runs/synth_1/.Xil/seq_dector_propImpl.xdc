@@ -1,0 +1,15 @@
+set_property SRC_FILE_INFO {cfile:G:/my_project_reader/seq_detector/seq_detector.srcs/constrs_1/imports/my_project_reader/Arty_Master.xdc rfile:../../../seq_detector.srcs/constrs_1/imports/my_project_reader/Arty_Master.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:23 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN E1    IOSTANDARD LVCMOS33 } [get_ports { irig_d0 }]; #IO_L18N_T2_35 Sch=led0_b
+set_property src_info {type:XDC file:1 line:24 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN F6    IOSTANDARD LVCMOS33 } [get_ports { garbage }]; #IO_L19N_T3_VREF_35 Sch=led0_g
+set_property src_info {type:XDC file:1 line:54 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN G13   IOSTANDARD LVCMOS33 } [get_ports { carrier }]; #IO_0_15 Sch=ja[1]
+set_property src_info {type:XDC file:1 line:55 export:INPUT save:INPUT read:READ} [current_design]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets carrier_IBUF]
+set_property src_info {type:XDC file:1 line:56 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B11   IOSTANDARD LVCMOS33 } [get_ports { data }]; #IO_L4P_T0_15 Sch=ja[2]
+set_property src_info {type:XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets data_IBUF]
+set_property src_info {type:XDC file:1 line:58 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A11   IOSTANDARD LVCMOS33 } [get_ports { reset }]; #IO_L4N_T0_15 Sch=ja[3]

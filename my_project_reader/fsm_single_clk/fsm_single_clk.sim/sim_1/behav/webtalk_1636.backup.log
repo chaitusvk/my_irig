@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Aug 08 17:09:23 2019
+# Process ID: 1636
+# Current directory: G:/my_project_reader/fsm_single_clk/fsm_single_clk.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source G:/my_project_reader/fsm_single_clk/fsm_single_clk.sim/sim_1/behav/xsim.dir/test_bech_fsm_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: G:/my_project_reader/fsm_single_clk/fsm_single_clk.sim/sim_1/behav/webtalk.log
+# Journal file: G:/my_project_reader/fsm_single_clk/fsm_single_clk.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source G:/my_project_reader/fsm_single_clk/fsm_single_clk.sim/sim_1/behav/xsim.dir/test_bech_fsm_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Aug 08 17:09:23 2019...

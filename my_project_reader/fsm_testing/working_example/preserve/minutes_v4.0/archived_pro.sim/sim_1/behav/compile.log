@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.srcs/sources_1/imports/new/irig_symbol_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module irig_symbol_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig_state.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module irig_state
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.srcs/sources_1/imports/irig-decoder-master/irig.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module irig
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.srcs/sim_1/new/irig_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module irig_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/my_project_reader/fsm_testing/working_example/archived_pro/archived_pro.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

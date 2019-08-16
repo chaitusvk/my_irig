@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1558301479">
+  <File Type="RDS-PROPCONSTRS" Name="irig_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="irig.tcl"/>
+  <File Type="RDS-RDS" Name="irig.vds"/>
+  <File Type="RDS-UTIL" Name="irig_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="irig_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="irig.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="irig_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="irig_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/irig-decoder-master/bcd_decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../arty/irig-decoder-master/bcd_decoder.v"/>
+        <Attr Name="ImportTime" Val="1456200958"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/irig_symbol_decode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../arty/IRIG_READER_LOGIC/symbol_irig_decode/project_1/project_1.srcs/sources_1/new/irig_symbol_decode.v"/>
+        <Attr Name="ImportTime" Val="1558291148"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/irig-decoder-master/irig_state.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../arty/irig-decoder-master/irig_state.v"/>
+        <Attr Name="ImportTime" Val="1456200958"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/irig-decoder-master/irig_timestamp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../arty/irig-decoder-master/irig_timestamp.v"/>
+        <Attr Name="ImportTime" Val="1456200958"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/irig-decoder-master/irig.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../arty/irig-decoder-master/irig.v"/>
+        <Attr Name="ImportTime" Val="1456200958"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="irig"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

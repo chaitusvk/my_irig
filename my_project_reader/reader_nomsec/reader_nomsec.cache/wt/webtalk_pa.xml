@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Aug 07 14:59:56 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="25789f2b19aa45c8ad1fb52d0b72558f" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="3" type="JavaHandler"/>
+<property name="CloseProject" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="NewProject" value="3" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="3" type="JavaHandler"/>
+<property name="RunSchematic" value="8" type="JavaHandler"/>
+<property name="RunSynthesis" value="4" type="JavaHandler"/>
+<property name="SaveProjectAs" value="2" type="JavaHandler"/>
+<property name="ShowSimulationDefaultWaveFormView" value="1" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+<property name="SimulationRun" value="14" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="2" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, irig (irig.v" value="14" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, irig_testbench (irig_testbench.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design, Schematic], 17, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, G:/my_project_reader/reader_nomsec/reader_nomsec.xpr, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, Expand Cone" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SchMenuAndMouse_TO_FLOPS_OR_IOS, To Flops or I/Os" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 103, 243" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 103, 243, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 104, 137" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 104, 137, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 104, 204" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 104, 204, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 107, 169" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 107, 169, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 110, 157" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 115, 88" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 115, 88, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 116, 73" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 127, 116" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 127, 96" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 127, 96, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 129, 116" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 129, 116, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 129, 144" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 129, 144, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 129, 172" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 129, 172, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 131, 178" value="2" type="GuiResourceData"/>
+<property name="irig_state.v, 131, 178, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 147, 206" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 671, 241" value="1" type="GuiResourceData"/>
+<property name="irig_state.v, 97, 216" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="258" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="236" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
